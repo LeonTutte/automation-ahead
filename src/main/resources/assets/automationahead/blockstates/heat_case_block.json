@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"": {
+			"model": "automationahead:block/heat_case_block"
+		}
+	}
+}
