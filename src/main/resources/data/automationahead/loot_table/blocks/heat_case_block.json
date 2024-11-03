@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "automationahead:heat_case_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "automationahead:blocks/heat_case_block"
+}

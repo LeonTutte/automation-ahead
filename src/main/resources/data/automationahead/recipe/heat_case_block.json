@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": {
+			"item": "automationahead:copper_tube"
+	},
+	"X": {
+		"item": "minecraft:iron_block"
+	}
+	},
+	"pattern": [
+		" # ",
+		" X ",
+		"   "
+	],
+	"result": {
+		"count": 1,
+		"id": "automationahead:heat_case_block"
+	}
+}

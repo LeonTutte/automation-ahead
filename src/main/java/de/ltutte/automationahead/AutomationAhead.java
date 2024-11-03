@@ -76,6 +76,8 @@ public class AutomationAhead
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+    	if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
+    		event.accept(de.ltutte.automationahead.items.Items.COPPER_TUBE);
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
             event.accept(de.ltutte.automationahead.blocks.Blocks.HEAT_CASE_BLOCK);
     }
